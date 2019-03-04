@@ -51,3 +51,7 @@ gem "active_model_serializers", "~> 0.10.8"
 gem "faker", "~> 1.9"
 
 gem 'httparty'
+
+group :production do
+ gem 'passenger', '5.0.28'
+end
